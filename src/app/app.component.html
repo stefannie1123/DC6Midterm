@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <div class="card" style="background-color: darkgray;">
+    <div class="head"style="margin: 20px;">
+      <h2 class="text-white">Rate Honda Products</h2>
+    </div>
+    <div class="row mt-4" style="margin: 20px;">
+      <div class="col-md-6">
+        <img style="width: 500px;" src="../assets/Honda click 125i.png" alt="">
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-white">THE NEW CLICK 125i</h3>
+        <p class="text-white">The New CLICK125i is powered by a 125cc Liquid-cooled, 
+          PGM-FI engine with Enhanced Smart Power and an ACG starter, making the model fuel efficient at 53 km/L. 
+          The model comes with the Combi Brake System and Park Brake Lock for added safety features.
+
+          Topping it off is the advanced full digital meter panel which provides real-time fuel consumption, 
+          battery and change oil indicator, trip meter, and digital clock.</p>
+        <ngb-rating [(rate)]="current"></ngb-rating>
+        <hr>
+        <pre class="text-white">Rate: <b>{{current}}</b> of 10</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
